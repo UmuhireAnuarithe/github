@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output ,EventEmitter} from '@angular/core';
+import { Github } from '../github';
 
 @Component({
   selector: 'app-github',
@@ -6,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./github.component.css']
 })
 export class GithubComponent implements OnInit {
-
-  constructor() { }
+  title = 'Github';
 
   ngOnInit() {
   }
